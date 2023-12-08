@@ -1,0 +1,264 @@
+[2023-12-05 04:08:07] local.ERROR: Command "make:migrate" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migrate\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view at C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\symfony\\console\\Application.php:725)
+[stacktrace]
+#0 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find('make:migrate')
+#1 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\React Native\\Sir Jomar\\laravelAPI\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2023-12-05 04:09:13] local.ERROR: Command "make:" is ambiguous.
+Did you mean one of these?
+    make:cast         Create a new custom Eloquent cast class
+    make:channel      Create a new channel class
+    make:component    Create a new view component class
+    make:command      Create a new Artisan command
+    make:controller   Create a new controller class
+    make:event        Create a new event class
+    make:exception    Create a new custom exception class
+    make:factory      Create a new model factory
+    make:job          Create a new job class
+    make:listener     Create a new event listener class
+    make:mail         Create a new email class
+    make:middleware   Create a new middleware class
+    make:model        Create a new Eloquent model class
+    make:notification Create a new notification class
+    make:observer     Create a new observer class
+    make:policy       Create a new policy class
+    make:provider     Create a new service provider class
+    make:request      Create a new form request class
+    make:resource     Create a new resource
+    make:rule         Create a new validation rule
+    make:scope        Create a new scope class
+    make:seeder       Create a new seeder class
+    make:test         Create a new test class
+    make:view         Create a new view
+    make:migration    Create a new migration file. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:\" is ambiguous.
+Did you mean one of these?
+    make:cast         Create a new custom Eloquent cast class
+    make:channel      Create a new channel class
+    make:component    Create a new view component class
+    make:command      Create a new Artisan command
+    make:controller   Create a new controller class
+    make:event        Create a new event class
+    make:exception    Create a new custom exception class
+    make:factory      Create a new model factory
+    make:job          Create a new job class
+    make:listener     Create a new event listener class
+    make:mail         Create a new email class
+    make:middleware   Create a new middleware class
+    make:model        Create a new Eloquent model class
+    make:notification Create a new notification class
+    make:observer     Create a new observer class
+    make:policy       Create a new policy class
+    make:provider     Create a new service provider class
+    make:request      Create a new form request class
+    make:resource     Create a new resource
+    make:rule         Create a new validation rule
+    make:scope        Create a new scope class
+    make:seeder       Create a new seeder class
+    make:test         Create a new test class
+    make:view         Create a new view
+    make:migration    Create a new migration file. at C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\symfony\\console\\Application.php:766)
+[stacktrace]
+#0 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->find('make:')
+#1 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\symfony\\console\\Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\React Native\\Sir Jomar\\laravelAPI\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2023-12-05 15:22:05] local.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(307): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}('')
+#1 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap('', Object(Closure))
+#2 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1066): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(982): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(943): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(169): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(800): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#20 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#21 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#22 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#23 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#40 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#41 C:\\React Native\\Sir Jomar\\laravelAPI\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#42 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\React Native...')
+#43 {main}
+"} 
+[2023-12-05 15:22:06] local.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(307): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}('')
+#1 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap('', Object(Closure))
+#2 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1066): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(982): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(943): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(255): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(213): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#18 C:\\React Native\\Sir Jomar\\laravelAPI\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#19 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\React Native...')
+#20 {main}
+"} 
+[2023-12-05 15:40:32] local.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(307): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}('')
+#1 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap('', Object(Closure))
+#2 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1066): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(982): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(943): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(169): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(800): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(777): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#20 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(741): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#21 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(730): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#22 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#23 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#40 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#41 C:\\React Native\\Sir Jomar\\laravelAPI\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#42 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\React Native...')
+#43 {main}
+"} 
+[2023-12-05 15:40:33] local.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:79)
+[stacktrace]
+#0 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(307): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}('')
+#1 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(81): tap('', Object(Closure))
+#2 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(60): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(32): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1066): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(982): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(943): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(795): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(955): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(731): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(940): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(255): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(213): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#18 C:\\React Native\\Sir Jomar\\laravelAPI\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#19 C:\\React Native\\Sir Jomar\\laravelAPI\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\React Native...')
+#20 {main}
+"} 
